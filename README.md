@@ -1,6 +1,6 @@
-# Nome do Projeto
+# Notion
 
-Uma breve descrição do seu projeto, o que ele faz e qual problema ele resolve.
+Um clone do notion com visualização de atalhos disponiveís com ctrl + k 
 
 ## Tecnologias Usadas
 
