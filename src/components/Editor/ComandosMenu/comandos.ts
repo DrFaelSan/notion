@@ -1,0 +1,57 @@
+export const Comandos = [
+  {
+    titulo: "Essencial",
+    atalhos: [
+      { titulo: "Copiar", atalho: ["Control", "C"] },
+      { titulo: "Colar", atalho: ["Control", "V"] },
+      { titulo: "Colar sem formatação", atalho: ["Control", "Shift", "V"] },
+      { titulo: "Recortar", atalho: ["Control", "X"] },
+      { titulo: "Desfazer", atalho: ["Control", "Z"] },
+      { titulo: "Refazer", atalho: ["Control", "Shift", "Z"] },
+    ],
+  },
+  {
+    titulo: "Formatação de texto",
+    atalhos: [
+      { titulo: "Negrito", atalho: ["Control", "B"] },
+      { titulo: "Itálico", atalho: ["Control", "I"] },
+      { titulo: "Sublinhado", atalho: ["Control", "U"] },
+      { titulo: "Tachado", atalho: ["Control", "Shift", "S"] },
+      { titulo: "Destaque", atalho: ["Control", "Shift", "H"] },
+      { titulo: "Código", atalho: ["Control", "E"] },
+    ],
+  },
+  {
+    titulo: "Formatação de parágrafos",
+    atalhos: [
+      { titulo: "Aplicar estilo de texto normal", atalho: ["Control", "Alt", "0"] },
+      { titulo: "Aplicar estilo de título 1", atalho: ["Control", "Alt", "1"] },
+      { titulo: "Aplicar estilo de título 2", atalho: ["Control", "Alt", "2"] },
+      { titulo: "Aplicar estilo de título 3", atalho: ["Control", "Alt", "3"] },
+      { titulo: "Aplicar estilo de título 4", atalho: ["Control", "Alt", "4"] },
+      { titulo: "Aplicar estilo de título 5", atalho: ["Control", "Alt", "5"] },
+      { titulo: "Aplicar estilo de título 6", atalho: ["Control", "Alt", "6"] },
+      { titulo: "Lista ordenada", atalho: ["Control", "Shift", "7"] },
+      { titulo: "Lista de marcadores", atalho: ["Control", "Shift", "8"] },
+      { titulo: "Lista de tarefas", atalho: ["Control", "Shift", "9"] },
+      { titulo: "Citação em bloco", atalho: ["Control", "Shift", "B"] },
+      { titulo: "Alinhar à esquerda", atalho: ["Control", "Shift", "L"] },
+      { titulo: "Alinhamento central", atalho: ["Control", "Shift", "E"] },
+      { titulo: "Alinhar à direita", atalho: ["Control", "Shift", "R"] },
+      { titulo: "Justificar", atalho: ["Control", "Shift", "J"] },
+      { titulo: "Bloco de código", atalho: ["Control", "Alt", "C"] },
+      { titulo: "Subscrito", atalho: ["Control", ","] },
+      { titulo: "Sobrescrito", atalho: ["Control", "."] },
+    ],
+  },
+  {
+    titulo: "Seleção de texto",
+    atalhos: [
+      { titulo: "Selecionar tudo", atalho: ["Control", "A"] },
+      { titulo: "Estender a seleção um caractere para a esquerda", atalho: ["Shift", "←"] },
+      { titulo: "Estender a seleção um caractere para a direita", atalho: ["Shift", "→"] },
+      { titulo: "Estender a seleção uma linha acima", atalho: ["Shift", "↑"] },
+      { titulo: "Estender seleção uma linha abaixo", atalho: ["Shift", "↓"] },
+    ],
+  },
+];
